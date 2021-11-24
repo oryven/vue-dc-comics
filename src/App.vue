@@ -3,6 +3,7 @@
   <div id="app">
     <Myheader/>
     <Content/>
+    <Loghi/>
   </div>
 
 </template>
@@ -10,12 +11,14 @@
 <script>
 import Myheader from './components/Myheader.vue'
 import Content from './components/Content.vue'
+import Loghi from './components/Loghi.vue'
 
 export default {
   name: 'App',
   components: {
     Myheader,
-    Content
+    Content,
+    Loghi
   }
 }
 </script>,
