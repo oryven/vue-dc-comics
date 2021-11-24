@@ -2,7 +2,7 @@
   <header>
           <img src="../assets/img/dc-logo.png" alt="">
         <ul>
-            <li v-for="link, i in links" :key="i" :class="link.here === true ? 'active' : ''">{{link.text}}</li>
+            <li v-for="link, i in links" :key="i" :class="link.Here === true ? 'active' : ''">{{link.text}}</li>
         </ul>
   </header>
 </template>
@@ -61,7 +61,7 @@ export default {
              {
                  text: "Shop",
                  url: "*",
-                 visuability: false
+                 Here: false
              }
          ]
      }
@@ -75,10 +75,12 @@ header {
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
-    margin: 30px auto;
+    margin: auto;
     img {
-    width: 100px;
+    width: 80px;
+    height: 80px;
         }
         ul {
             display: flex;
@@ -94,7 +96,7 @@ header {
                 }
                 &.active{
                     color:#0c7cec;
-                    padding-bottom: 50px;
+                    padding: 40px 0;
                     border-bottom: 5px solid;
                 }
             }
