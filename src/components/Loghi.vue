@@ -5,27 +5,27 @@
         <div>
             <div>
                 <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-                <div>DIGITAL COMICS</div>
+                <div>digital comics</div>
             </div>
                     
             <div>
                 <img src="../assets/img/buy-comics-merchandise.png" alt="">
-                <div>DIGITAL COMICS</div>
+                <div>merchandise</div>
             </div>
 
             <div>
                 <img src="../assets/img/buy-comics-shop-locator.png" alt="">
-                <div>DIGITAL COMICS</div>
+                <div>shop</div>
             </div>
 
             <div>
                 <img src="../assets/img/buy-comics-subscriptions.png" alt="">
-                <div>DIGITAL COMICS</div>
+                <div>subscriptions</div>
             </div>
 
             <div>
                 <img src="../assets/img/buy-dc-power-visa.svg" alt="">
-                <div>DIGITAL COMICS</div>
+                <div>dc power visa</div>
             </div>
         </div>
         
@@ -53,8 +53,8 @@ section {
         margin: auto;
         height: 100%;
         img {
-            width: 50px;
-            margin-right: 20px ;
+            width: 40px;
+            margin-right: 10px ;
         }
     }
 }

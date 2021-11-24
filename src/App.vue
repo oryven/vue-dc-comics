@@ -4,6 +4,7 @@
     <Myheader/>
     <Content/>
     <Loghi/>
+    <Footer/>
   </div>
 
 </template>
@@ -12,13 +13,15 @@
 import Myheader from './components/Myheader.vue'
 import Content from './components/Content.vue'
 import Loghi from './components/Loghi.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Myheader,
     Content,
-    Loghi
+    Loghi,
+    Footer
   }
 }
 </script>,
