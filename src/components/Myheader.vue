@@ -2,7 +2,7 @@
   <header>
           <img src="../assets/img/dc-logo.png" alt="">
         <ul>
-            <li v-for="link, i in links" :key="i" :class="link.visuability === true ? 'active' : ''">{{link.text}}</li>
+            <li v-for="link, i in links" :key="i" :class="link.here === true ? 'active' : ''">{{link.text}}</li>
         </ul>
   </header>
 </template>
@@ -15,42 +15,52 @@ export default {
          links: [
              {
                  text: "Characters",
-                 visuability: false
+                 url: "*",
+                 Here: false
              },
              {
                  text: "Comics",
-                 visuability: true
+                 url: "*",
+                 Here: true
              },
              {
                  text: "Movies",
-                 visuability: false
+                 url: "*",
+                 Here: false
              },
              {
                  text: "TV",
-                 visuability: false
+                 url: "*",
+                 Here: false
              },
              {
                  text: "Games",
-                 visuability: false
+                 url: "*",
+                 Here: false
              },
              {
                  text: "Collectibles",
-                 visuability: false
+                 url: "*",
+                 Here: false
              },
              {
                  text: "Videos",
-                 visuability: false
+                 url: "*",
+                 Here: false
              },
              {
                  text: "Fans",
-                 visuability: false
+                 url: "*",
+                 Here: false
              },
              {
                  text: "News",
-                 visuability: false
+                 url: "*",
+                 Here: false
              },
              {
                  text: "Shop",
+                 url: "*",
                  visuability: false
              }
          ]
