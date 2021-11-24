@@ -52,6 +52,8 @@ section {
         width: 80%;
         margin: auto;
         height: 100%;
+        text-transform: uppercase;
+        font-size: 12px;
         img {
             width: 40px;
             margin-right: 10px ;

@@ -5,6 +5,7 @@
     <Content/>
     <Loghi/>
     <Footer/>
+    <Social/>
   </div>
 
 </template>
@@ -14,6 +15,7 @@ import Myheader from './components/Myheader.vue'
 import Content from './components/Content.vue'
 import Loghi from './components/Loghi.vue'
 import Footer from './components/Footer.vue'
+import Social from './components/Social.vue'
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
     Myheader,
     Content,
     Loghi,
-    Footer
+    Footer,
+    Social
   }
 }
 </script>,
