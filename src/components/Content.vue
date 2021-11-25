@@ -4,6 +4,8 @@
 
 <div class="jumbo"></div>
 
+    <div class="current">CURRENT SERIES</div>
+
     <div class="container-thums">
         
         <Thumb v-for="comics, i in thumbsComics" :key="i" :details="comics"/>
@@ -123,7 +125,20 @@ export default {
 
 section {
     background-color: #1c1c1c;
-    
+    position: relative;
+    .current{
+        padding: 0 30px;
+        height: 40px;
+        background-color:#0282f9 ;
+        line-height: 40px;
+        text-align: center;
+        color:white;
+        font-size: 14px;
+        position: absolute;
+        left: 100px;
+        top: 280px;
+        font-weight: bold;
+    }
     .container-thums {
         display: flex;
         flex-wrap: wrap;
@@ -131,6 +146,7 @@ section {
         color: white;
         width: 80%;
         margin: auto;  
+        padding-top: 30px;
     }
     .container-button{
         text-align: center;

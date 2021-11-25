@@ -3,7 +3,10 @@
     <div class="comics">
         <img :src="details.thumb" alt="">
         <h4>{{details.series}}</h4>
+        <div>{{details.type}}</div>
+        <div>{{details.price}}</div>
     </div>
+
 </template>
 
 <script>
@@ -20,11 +23,11 @@ export default {
 
 .comics {
     width: calc(100% / 6 - 20px);
-    height: 200px;
+    height: 250px;
     margin: 10px 10px;
     img {
         width: 100%;
-        height: 80%;
+        height: 170px;
         object-fit: none;
         object-position: top;
     }
@@ -32,10 +35,5 @@ export default {
         margin-top: 10px ;
     }
 }
-
-
-
-
-
-    
+ 
 </style>
