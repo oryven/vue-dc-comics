@@ -19,10 +19,11 @@ export default {
 <style scoped lang="scss">
 
 .comics {
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 20px);
+    height: 70%;
+    margin: 20px 10px;
     img {
         width: 100%;
-        height: 50%;
     }
 }
 

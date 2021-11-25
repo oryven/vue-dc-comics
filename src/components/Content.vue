@@ -1,11 +1,21 @@
 <template>
 
 <section>
-    <div>
+
+<div class="jumbo"></div>
+
+    <div class="container-thums">
         
         <Thumb v-for="comics, i in thumbsComics" :key="i" :details="comics"/>
 
     </div>
+
+    <div class="container-button">
+
+            <button class="botton-load">LOAD MORE</button>
+
+        </div>
+
 </section>
     
 </template>
@@ -105,18 +115,37 @@ export default {
 
 <style scoped lang="scss">
 
+.jumbo {
+    background-image: url("../assets/img/jumbotron.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
 section {
     background-color: #1c1c1c;
     
-    div {
+    .container-thums {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         color: white;
         width: 80%;
-        margin: auto;
-        
+        margin: auto;  
     }
+    .container-button{
+        text-align: center;
+    }
+    .botton-load {
+        background-color: #0282f9;
+        padding: 10px 40px;
+        color:white;
+        border: none;
+        cursor: pointer;
+        margin: 30px 0;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
 }
 
 
