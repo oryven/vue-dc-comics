@@ -20,12 +20,19 @@ export default {
 
 .comics {
     width: calc(100% / 6 - 20px);
-    height: 70%;
-    margin: 20px 10px;
+    height: 200px;
+    margin: 10px 10px;
     img {
         width: 100%;
+        height: 80%;
+        object-fit: none;
+        object-position: top;
+    }
+    h4 {
+        margin-top: 10px ;
     }
 }
+
 
 
 
