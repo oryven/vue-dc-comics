@@ -116,7 +116,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+$color-botton: #0282f9 ;
 .jumbo {
     background-image: url("../assets/img/jumbotron.jpg");
     height: 300px;
@@ -129,7 +129,7 @@ section {
     .current{
         padding: 0 30px;
         height: 40px;
-        background-color:#0282f9 ;
+        background-color: $color-botton ;
         line-height: 40px;
         text-align: center;
         color:white;
@@ -152,7 +152,7 @@ section {
         text-align: center;
     }
     .botton-load {
-        background-color: #0282f9;
+        background-color: $color-botton ;
         padding: 10px 40px;
         color:white;
         border: none;
