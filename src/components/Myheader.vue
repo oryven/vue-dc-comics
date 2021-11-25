@@ -90,17 +90,22 @@ header {
                 margin: 0 10px;
                 font-size: 12px;
                 font-weight: bold;
+                padding: 40px 0;
                 &:hover {
                     color:#0c7cec;
                     cursor: pointer;
                 }
                 &.active{
                     color:#0c7cec;
-                    padding: 40px 0;
+                    
                     border-bottom: 5px solid;
                 }
             }
         }
     }
-    
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 </style>

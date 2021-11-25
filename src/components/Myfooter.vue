@@ -93,6 +93,7 @@ footer {
         }
         h4 {
             color:white;
+            margin: 10px 0;
         }
         li  {
             list-style-type: none;

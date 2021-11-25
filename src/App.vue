@@ -4,7 +4,7 @@
     <Myheader/>
     <Content/>
     <Loghi/>
-    <Footer/>
+    <Myfooter/>
     <Social/>
   </div>
 
@@ -14,7 +14,7 @@
 import Myheader from './components/Myheader.vue'
 import Content from './components/Content.vue'
 import Loghi from './components/Loghi.vue'
-import Footer from './components/Footer.vue'
+import Myfooter from './components/Myfooter.vue'
 import Social from './components/Social.vue'
 
 export default {
@@ -23,7 +23,7 @@ export default {
     Myheader,
     Content,
     Loghi,
-    Footer,
+    Myfooter,
     Social
   }
 }
